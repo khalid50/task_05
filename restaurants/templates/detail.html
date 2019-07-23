@@ -5,6 +5,12 @@
         <title>Detail</title>
     </head>
     <body>
-        
+        {{restaurant.name}}
+        {{restaurant.description}}
+        {{restaurant.opening_time}}
+        {{restaurant.closing_time}}
+        <br>
+
+        <a href="{% url 'restaurant-list'  %}">  Back page</a>
     </body>
 </html>
